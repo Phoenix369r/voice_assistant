@@ -10,8 +10,8 @@ import google.generativeai as genai
 
 # --- CHANGE: Add your API keys here ---
 # Replace with your actual API keys
-WEATHER_API_KEY = "bcf33f6d3d5c4adb65e4667de5783b7c"
-GEMINI_API_KEY = "AIzaSyDgZcA82NurAFVzUJMBOyl9U94q-vwpERE"
+WEATHER_API_KEY = "your_api_key"
+GEMINI_API_KEY = "your_api_key"
 
 # --- Text-to-Speech engine setup ---
 engine = pyttsx3.init()
@@ -211,4 +211,5 @@ def run_assistant():
 
 # Start the assistant
 if __name__ == "__main__":
+
     run_assistant()
